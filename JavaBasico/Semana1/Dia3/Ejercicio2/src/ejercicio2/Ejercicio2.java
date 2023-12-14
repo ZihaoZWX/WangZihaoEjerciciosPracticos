@@ -7,10 +7,10 @@ public class Ejercicio2 {
         Persona[] personas=new Persona[5];
         
         Persona persona1=new Persona(1,"Adrian",22,"Direcion1",1);
-        Persona persona2=new Persona(1,"Alfredo",23,"Direcion2",2);
-        Persona persona3=new Persona(1,"Raul",21,"Direcion3",3);
-        Persona persona4=new Persona(1,"Jose",24,"Direcion4",4);
-        Persona persona5=new Persona(1,"Juan",35,"Direcion5",5);
+        Persona persona2=new Persona(2,"Alfredo",23,"Direcion2",2);
+        Persona persona3=new Persona(3,"Raul",21,"Direcion3",3);
+        Persona persona4=new Persona(4,"Jose",24,"Direcion4",4);
+        Persona persona5=new Persona(5,"Juan",35,"Direcion5",5);
         
         personas[0]=persona1;
         personas[1]=persona2;
