@@ -79,6 +79,9 @@ public class Funciones {
                 double calificacion=result.getDouble("calificacion");
                 System.out.println("ID "+id+" Nombre "+nombre+" Edad "+edad+" Calificacion "+calificacion);
             }
+            st.close();
+            result.close();
+            con.close();
         } catch (Exception e) {
             e.printStackTrace();
         }

@@ -1,0 +1,8 @@
+com\mycompany\ejercicio2jbs2d3\controllers\exceptions\IllegalOrphanException.class
+com\mycompany\ejercicio2jbs2d3\models\Platillos.class
+com\mycompany\ejercicio2jbs2d3\models\Platillos_.class
+com\mycompany\ejercicio2jbs2d3\controllers\PersistenceController.class
+com\mycompany\ejercicio2jbs2d3\controllers\exceptions\NonexistentEntityException.class
+com\mycompany\ejercicio2jbs2d3\controllers\PlatillosJpaController.class
+com\mycompany\ejercicio2jbs2d3\controllers\exceptions\PreexistingEntityException.class
+com\mycompany\ejercicio2jbs2d3\Main.class
