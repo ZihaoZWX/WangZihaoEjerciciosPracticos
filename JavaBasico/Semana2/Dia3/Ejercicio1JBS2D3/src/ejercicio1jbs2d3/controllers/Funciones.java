@@ -4,6 +4,7 @@ import java.sql.ResultSet;
 import java.sql.PreparedStatement;
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.SQLException;
 import java.util.Scanner;
 
 /**
@@ -18,22 +19,26 @@ public class Funciones {
     String password = "1234";
     Scanner sc = new Scanner(System.in);
     
-    public Funciones() {
+    public Funciones() throws ClassNotFoundException, SQLException {
+        Class.forName(driver);
+        Connection con = DriverManager.getConnection(url, user, password);
+        start(con);
     }
     
-    public void start() {
+    public void start(Connection con) throws SQLException {
         int elecion=3;
         while(elecion!=0){
             System.out.println("Introduce\n0 Salir\n1 Insertar datos \n2 Mostrar");
             elecion=sc.nextInt();
             switch(elecion){
                 case 0:
+                    con.close();
                     break;
                 case 1:
-                    crear();
+                    crear(con);
                     break;
                 case 2:
-                    selectAll();
+                    selectAll(con);
                     System.out.println("Introduce cualquier numero para salir excepto 0");
                     elecion=sc.nextInt();
                     break;
@@ -41,10 +46,8 @@ public class Funciones {
         }
     }
 
-    public void crear() {
+    public void crear(Connection con) {
         try {
-            Class.forName(driver);
-            Connection con = DriverManager.getConnection(url, user, password);
             String sqlInsert = "insert into estudiantes (nombre,edad,calificacion) values(?,?,?)";
             PreparedStatement st = con.prepareStatement(sqlInsert);
             System.out.println("Introduce el nombre");
@@ -58,16 +61,13 @@ public class Funciones {
             st.setDouble(3, calificacion);
             st.executeUpdate();
             st.close();
-            con.close();
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
 
-    public void selectAll() {
+    public void selectAll(Connection con) {
         try {
-            Class.forName(driver);
-            Connection con=DriverManager.getConnection(url,user,password);
             ResultSet result;
             String sql="select * from estudiantes";
             PreparedStatement st=con.prepareStatement(sql);
@@ -81,7 +81,6 @@ public class Funciones {
             }
             st.close();
             result.close();
-            con.close();
         } catch (Exception e) {
             e.printStackTrace();
         }
