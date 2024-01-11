@@ -1,0 +1,11 @@
+com\mycompany\ejercicio1jas3d2\persistence\exceptions\IllegalOrphanException.class
+com\mycompany\ejercicio1jas3d2\models\Votes_.class
+com\mycompany\ejercicio1jas3d2\resources\JavaEE8Resource.class
+com\mycompany\ejercicio1jas3d2\models\Votes.class
+com\mycompany\ejercicio1jas3d2\JAXRSConfiguration.class
+com\mycompany\ejercicio1jas3d2\servlets\SvVotes.class
+com\mycompany\ejercicio1jas3d2\persistence\exceptions\NonexistentEntityException.class
+com\mycompany\ejercicio1jas3d2\persistence\PersistenceController.class
+com\mycompany\ejercicio1jas3d2\persistence\exceptions\PreexistingEntityException.class
+com\mycompany\ejercicio1jas3d2\logic\Controller.class
+com\mycompany\ejercicio1jas3d2\persistence\VotesJpaController.class

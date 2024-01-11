@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/Ejercicio1JAS3D2">
+  <Resource auth="Container" driverClassName="com.mysql.cj.jdbc.Driver" maxActive="20" maxIdle="10" maxWait="-1" name="PersonaJspConection" password="" reloadable="true" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/votes?serverTimezone=UTC" username="root"/>
+</Context>
