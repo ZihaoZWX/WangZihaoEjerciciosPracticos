@@ -35,7 +35,10 @@
             <form action="SvVotes" method="get">
                 <button type="submit" class="btn btn-success">SHOW</button>
             </form>
-            <table class="table">
+            
+            <br/>
+            
+            <table class="table" border="1" >
                 <thead>
                     <tr>
                         <th>Parties</th>
