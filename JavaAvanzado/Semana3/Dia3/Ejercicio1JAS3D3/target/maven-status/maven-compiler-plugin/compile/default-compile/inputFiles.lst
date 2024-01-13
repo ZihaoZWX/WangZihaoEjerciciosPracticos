@@ -1,0 +1,15 @@
+C:\Users\zihao\NetBeansProject\Ejercicio1JAS3D3\src\main\java\com\mycompany\ejercicio1jas3d3\resources\JavaEE8Resource.java
+C:\Users\zihao\NetBeansProject\Ejercicio1JAS3D3\src\main\java\com\mycompany\ejercicio1jas3d3\JAXRSConfiguration.java
+C:\Users\zihao\NetBeansProject\Ejercicio1JAS3D3\src\main\java\com\mycompany\ejercicio1jas3d3\servlets\SvClub.java
+C:\Users\zihao\NetBeansProject\Ejercicio1JAS3D3\src\main\java\com\mycompany\ejercicio1jas3d3\logic\GamesController.java
+C:\Users\zihao\NetBeansProject\Ejercicio1JAS3D3\src\main\java\com\mycompany\ejercicio1jas3d3\models\Club.java
+C:\Users\zihao\NetBeansProject\Ejercicio1JAS3D3\src\main\java\com\mycompany\ejercicio1jas3d3\models\GamesPlayed.java
+C:\Users\zihao\NetBeansProject\Ejercicio1JAS3D3\src\main\java\com\mycompany\ejercicio1jas3d3\persistence\ClubJpaController.java
+C:\Users\zihao\NetBeansProject\Ejercicio1JAS3D3\src\main\java\com\mycompany\ejercicio1jas3d3\logic\ClubController.java
+C:\Users\zihao\NetBeansProject\Ejercicio1JAS3D3\src\main\java\com\mycompany\ejercicio1jas3d3\persistence\exceptions\NonexistentEntityException.java
+C:\Users\zihao\NetBeansProject\Ejercicio1JAS3D3\src\main\java\com\mycompany\ejercicio1jas3d3\persistence\exceptions\PreexistingEntityException.java
+C:\Users\zihao\NetBeansProject\Ejercicio1JAS3D3\src\main\java\com\mycompany\ejercicio1jas3d3\persistence\ClubPersistenceController.java
+C:\Users\zihao\NetBeansProject\Ejercicio1JAS3D3\src\main\java\com\mycompany\ejercicio1jas3d3\persistence\exceptions\IllegalOrphanException.java
+C:\Users\zihao\NetBeansProject\Ejercicio1JAS3D3\src\main\java\com\mycompany\ejercicio1jas3d3\servlets\SvGamesPlayed.java
+C:\Users\zihao\NetBeansProject\Ejercicio1JAS3D3\src\main\java\com\mycompany\ejercicio1jas3d3\persistence\GamesPersistenceController.java
+C:\Users\zihao\NetBeansProject\Ejercicio1JAS3D3\src\main\java\com\mycompany\ejercicio1jas3d3\persistence\GamesPlayedJpaController.java

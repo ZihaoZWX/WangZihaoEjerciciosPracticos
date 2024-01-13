@@ -1,0 +1,17 @@
+com\mycompany\ejercicio1jas3d3\models\Club_.class
+com\mycompany\ejercicio1jas3d3\persistence\ClubJpaController.class
+com\mycompany\ejercicio1jas3d3\models\GamesPlayed_.class
+com\mycompany\ejercicio1jas3d3\models\GamesPlayed.class
+com\mycompany\ejercicio1jas3d3\persistence\exceptions\PreexistingEntityException.class
+com\mycompany\ejercicio1jas3d3\servlets\SvClub.class
+com\mycompany\ejercicio1jas3d3\persistence\GamesPersistenceController.class
+com\mycompany\ejercicio1jas3d3\logic\GamesController.class
+com\mycompany\ejercicio1jas3d3\persistence\GamesPlayedJpaController.class
+com\mycompany\ejercicio1jas3d3\servlets\SvGamesPlayed.class
+com\mycompany\ejercicio1jas3d3\logic\ClubController.class
+com\mycompany\ejercicio1jas3d3\models\Club.class
+com\mycompany\ejercicio1jas3d3\persistence\exceptions\IllegalOrphanException.class
+com\mycompany\ejercicio1jas3d3\JAXRSConfiguration.class
+com\mycompany\ejercicio1jas3d3\persistence\ClubPersistenceController.class
+com\mycompany\ejercicio1jas3d3\persistence\exceptions\NonexistentEntityException.class
+com\mycompany\ejercicio1jas3d3\resources\JavaEE8Resource.class
